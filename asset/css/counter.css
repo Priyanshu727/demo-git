@@ -1,0 +1,38 @@
+.wrapper {
+  width: 980px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.counter {
+  background-color:transparent;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.count-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  font-family: 'Comfortaa';
+}
+
+.count-text {
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 30px;
+  color: #f31e3d;
+  font-weight: 700;
+  font-family: 'Comfortaa';
+}
+
+.fa-2x {
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #4ad1e5;
+}

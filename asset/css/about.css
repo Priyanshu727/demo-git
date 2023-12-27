@@ -1,0 +1,62 @@
+body {
+  font-family: 'Lora';
+  color: #666;
+  font-size: 16px;
+  background: #f9f9f9;
+  line-height: 1.6em;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 60%;
+  margin: 30px auto;
+  overflow: auto;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.title {
+  height: 40px;
+  background: #6bb170;
+  color: #fff;
+  text-align: center;
+  padding-top: 12px;
+  margin: 0;
+}
+.faq li {
+  padding: 20px;
+}
+.faq li.q {
+  background: #eee;
+  font-weight: bold;
+  font-size: 120%;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.faq li.a {
+  background: #ddd;
+  display: none;
+}
+@media (max-width: 800px) {
+  #container {
+      width: 90%;
+  }
+}
+
+.rotate {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.knowlage-faq{
+  background-color: #666;
+  height: 100vh;
+}
+header{
+  margin-top: 80px;
+}
